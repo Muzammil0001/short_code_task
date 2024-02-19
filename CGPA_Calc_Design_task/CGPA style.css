@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navBar {
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.logo {
+  height: 50px;
+  width: 90px;
+
+}
+
+
+.Nav_links {
+  font-size: 18px;
+  line-height: 70px;
+  list-style-type: none;
+  display: flex;
+  justify-content:
+    center;
+  column-gap: 20px;
+}
+
+li>a:hover {
+  color: #ffff;
+  background-color: black;
+  border-radius: 2px;
+
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  padding: 5px;
+
+}
+
+.logs_link>a {
+  border-radius: 50px;
+  border: 0.2px solid gray;
+  box-shadow: 1px 1px 2px gray;
+  padding: 7px 10px;
+  font-size: 16px;
+
+}
+
+.logs_link>a:hover {
+  border-radius: 50px;
+  padding: 7px 10px;
+}
+
+.sec_2 {
+  margin: 15px auto;
+  padding: 5px;
+  width: 80%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.sec2_sub1 {
+
+  margin: 20px;
+}
+
+.sec_2_subDiv {
+  width: 100%;
+  margin: 10px auto;
+
+}
+
+.inputs_div_sec {
+  display: flex;
+  text-align: center;
+  column-gap: 1px;
+
+}
+
+.headAndInpt_div {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 500px;
+  background-color: black;
+  color: white;
+  margin: 1px;
+  line-height: 40px;
+
+}
+
+input {
+  border: none;
+  width: 257px;
+  margin: 1px;
+  line-height: 30px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.table1_div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+
+}
+
+tr {
+  line-height: 40px;
+}
+
+td {
+  text-align: center;
+  text-transform: capitalize;
+  width: 267px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.th {
+  font-weight: 500;
+}
+
+.t2_td {
+  width: 200px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.Add_btn_div {
+  margin: 1px 1px 10px 1px;
+  float: right;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.clc_btn {
+
+  border: none;
+  color: white;
+  background-color: black;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3px;
+
+}
+
+#pop_bg {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: none;
+}
+
+.pop_up {
+  text-align: center;
+  height: 250px;
+  width: 500px;
+  padding-top: 75px;
+  border-radius: 10px;
+  background-color: white;
+  color: red;
+}
+
+.pop_btn {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background-color: red;
+
+
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Card</title>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+
+      .main_div {
+        position: relative;
+        margin: auto;
+        border: 1px solid rgb(218, 216, 216);
+        font-family: "Poppins", sans-serif;
+        width: 432px;
+        border-radius: 16px;
+      }
+
+      .container {
+        width: 420px;
+        margin: auto;
+      }
+
+      .img_div {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        width: 432px;
+        height: 167px;
+        padding-top: 8px;
+      }
+
+      .label {
+        font-weight: 500;
+        font-size: 12px;
+        color: #ff865e;
+        position: absolute;
+        background-color: #ffffff;
+        border-radius: 100px;
+        display: flex;
+        width: 145px;
+        left: 20px;
+        top: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 0px;
+      }
+      .timer {
+        margin-right: 6px;
+        font-size: 16px;
+      }
+
+      .img_sec3 {
+        margin-top: 5px;
+      }
+
+      .img1 {
+        border-radius: 10px;
+      }
+
+      .img2 {
+        border-radius: 10px;
+      }
+
+      .img3 {
+        border-radius: 10px 10px 0 0;
+      }
+
+      .img4 {
+        border-radius: 0 0 0 10px;
+      }
+
+      .img6 {
+        border-radius: 0 0 10px 0;
+      }
+
+      .section2 {
+        width: 416px;
+        /* border: 1px solid red; */
+        margin: 10px 0px;
+        line-height: 27px;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+      }
+
+      .section3 {
+        width: 416px;
+        margin: 10px 0px;
+      }
+
+      .bookmark {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 12px;
+      }
+
+      .bookmark1 {
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+        margin: auto;
+        color: #012c57;
+        height: 32px;
+      }
+
+      .bookmarkicon {
+        font-size: 17px;
+        padding: 2px;
+        margin: 5px;
+      }
+
+      .hollywod-div {
+        padding: 2px;
+      }
+
+      .hollywod-div1 {
+        border: 1px solid rgb(214, 213, 213);
+        border-radius: 50px;
+      }
+
+      .sub-div {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        height: 18px;
+      }
+
+      .sub-sub-div {
+        background-color: #fff3ef;
+        border-radius: 19px;
+        padding: 3px 10px 3px 10px;
+      }
+
+      .icon-height {
+        font-size: 16px;
+      }
+
+      .sar {
+        text-wrap: nowrap;
+        font-size: 14px;
+        color: #67809a;
+      }
+
+      .icon-price {
+        font-size: 19px;
+      }
+
+      .hidden-class {
+        visibility: hidden;
+      }
+
+      .left-border {
+        border-left: 1.5px solid rgb(228, 228, 228);
+        margin-left: -5px;
+        padding-left: 10px;
+      }
+      .sec3-main {
+        display: flex;
+        width: 92%;
+        margin: auto;
+      }
+      .sec3-sub-div {
+        height: 48px;
+        display: flex;
+        width: 50%;
+      }
+      .dr-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12px;
+      }
+      .book-now {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: #d0efff;
+        border-radius: 100px;
+        width: 109px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #012c57;
+      }
+      .dr-name {
+        color: #012c57;
+        text-wrap: nowrap;
+        font-weight: 600;
+      }
+      .des {
+        color: #2ca58d;
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        margin-top: 5px;
+      }
+      .stetho {
+        font-size: 16px;
+        margin-right: 5px;
+      }
+      .boknow {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+      }
+      hr {
+        border-top: 1px solid rgb(219, 216, 216);
+        width: 92%;
+        margin: auto;
+      }
+      .bkm {
+        float: right;
+        border-radius: 100%;
+        border: 1px solid grey;
+        padding: 2px;
+        right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main_div">
+      <div class="container">
+        <div class="img_div">
+          <div class="left_img">
+            <div class="label">
+              <span class="material-symbols-outlined timer"> timer </span>
+              <span>Expires in 2 days</span>
+            </div>
+
+            <img class="img1" src="https://picsum.photos/298/163" alt="1" />
+          </div>
+          <div class="right_img">
+            <img class="img2" src="https://picsum.photos/110/71" alt="2" />
+            <div class="img_sec3">
+              <img class="img3" src="https://picsum.photos/110/45" alt="3" />
+              <img class="img4" src="https://picsum.photos/34/31" alt="4" />
+              <img class="img5" src="https://picsum.photos/34/31" alt="5" />
+              <img class="img6" src="https://picsum.photos/34/31" alt="6" />
+            </div>
+          </div>
+        </div>
+
+        <div class="section2">
+          <div class="bookmark1">
+            <span class="hollywod-div">
+              Hollywood Smile
+            </span>
+            <div class="hollywod-div1">
+              <span class="material-symbols-outlined bookmarkicon">
+                bookmarks
+              </span>
+            </div>
+          </div>
+          <div class="bookmark">
+            <div class="sub-div sub-sub-div">
+              <i
+                class="fa-solid fa-star /icon-height"
+                style="color: #ff865e;"
+              ></i>
+              <span style="padding-left: 4px;">4,5</span>
+            </div>
+            <div class="sub-div sar">
+              <span class="material-symbols-outlined icon-price">
+                sell
+              </span>
+              <span style="padding-left: 4px;">300 SAR</span>
+            </div>
+            <div class="sub-div sar left-border">
+              <span class="material-symbols-outlined icon-price">
+                group
+              </span>
+              <span style="padding-left: 4px;">345 Patient</span>
+            </div>
+            <div class="sub-div hidden-class">
+              <span style="padding-left: 4px;">**********</span>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="section3">
+          <div class="sec3-main">
+            <div class="sec3-sub-div">
+              <img class="img1" src="https://picsum.photos/48/48" alt="1" />
+              <div class="dr-div">
+                <span class="dr-name">Dr. George Orwel</span>
+                <span class="des">
+                  <span class="material-symbols-outlined stetho">
+                    stethoscope
+                  </span>
+                  <span>
+                    Dermatologist
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="sec3-sub-div boknow">
+              <span class="book-now">
+                Book Now
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

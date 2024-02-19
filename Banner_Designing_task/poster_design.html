@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tast 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins';
+        }
+
+        body {
+            background-color: black;
+
+        }
+
+        .container {
+            background-image: url("/Task5/texture.png");
+            background-color: #002B66;
+            height: 330px;
+            width: 1200px;
+            margin: 25vh auto;
+            display: flex;
+
+
+        }
+
+        #leftDiv {
+            display: flex;
+            flex-direction: row;
+            width: calc(100%/2);
+            position: relative;
+        }
+
+        .iconsDiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            top: 150px;
+            position: absolute;
+            height: 170px;
+            width: 170px;
+            margin-left: 30px;
+        }
+
+
+        .img {
+            margin-left: -40px;
+            margin-top: 10px;
+
+        }
+
+        .gIcon {
+            height: 180px;
+            margin-right: 20px;
+        }
+
+        .arrowClass {
+            position: absolute;
+            height: 115px;
+            width: 120px;
+            padding-top: 95px;
+            padding-left: 495px;
+        }
+
+        h1 {
+
+            font-size: 40px;
+            font-weight: 600;
+            word-spacing: 5px;
+            line-height: 50px;
+            color: white;
+            margin-left: 99px;
+            margin-top: 32px;
+
+           
+
+        }
+
+        .rightDiv {
+            position: relative;
+            width: 50%;
+            top: 40px;
+
+        }
+        h3 {
+            color: white;
+            font-size: 22px;
+            line-height: 34px;
+            text-align: center;
+            font-weight:500;
+        }
+
+        span {
+
+            background-color:#E67136;
+            border-radius: 3px;
+            padding: 0px 8px;
+            font-size: 22px;
+            line-height: 34px;
+            font-weight: 700;
+            text-align: center;
+            
+        }
+
+       
+        .innerDiv1 {
+
+            text-align: center;
+            margin: auto;
+            width: 430px;
+
+
+        }
+
+        .innerDiv2 {
+            width: 430px;
+            display: flex;
+            margin: auto;
+            flex-direction: row;
+            background-color: white;
+            border-radius: 12px;
+            margin-top: 30px;
+          
+        }
+
+        .reviewDiv {
+            width: 50%;
+            align-items: center;
+            padding-left: 15px;
+            padding-bottom: 20px;
+            font-size: 22px;
+           font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+
+
+    
+
+        .button {
+            color: black;
+     
+        width: 132px;
+        height: 30px;
+            align-items: center;
+            font-weight: 200;
+            margin: auto;
+        border-radius: 4px;
+
+           
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container main_div">
+        <div id="leftDiv">
+            <h1>Explore Our Listing For<br>This Product On</h1>
+            <img class="arrowClass" src="/Task5/arrow.png" alt="">
+            <div class="iconsDiv">
+                <img class="gIcon" src="/Task5/girl.png" alt="">
+                <img class="img" src="/Task5/amazon.png" alt="">
+                <img class="img" src="/Task5/ebay.png" alt="">
+                <img class="img" src="/Task5/bq.png" alt="">
+
+
+            </div>
+        </div>
+        <div class="rightDiv">
+            <div class="innerDiv1">
+                <h3>See Our <span>Authentic Reviews</span> Across
+                    <br>Multiple Marketplaces.
+                </h3>
+            </div>
+            <div class="innerDiv2">
+                <div class="reviewDiv">
+                    <h4 style="margin-bottom: 05px;">Customer reviews</h4>
+                    <img style="width: 140px;" src="/Task5/review.png" alt="">
+                </div>
+                <div class="button">
+                    <img  src="/Task5/btn.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
